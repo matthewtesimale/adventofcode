@@ -11,7 +11,8 @@ Not completed
 
 I decided to take a more 'file upload' approach to be able to separate the data from the processing program.
 Initially, I wrote the code to include only one function necessary, but often times you want to separate functions
-according to their respective task.
+according to their respective task. Note that I also left my raw script to show a little more grainy how I solved the puzzle.
+It will lack doc strings and efficient logic, but it gets the job done! Haha
 
 So, in the "_clean" program, I separated the victor determination from the scoring.
 I also improved the logic with the determineVictor function by utilizing an 'in' operator as opposed to multiple
