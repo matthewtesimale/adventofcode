@@ -7,6 +7,8 @@ These are my solutions to the yearly Advent of Code challenges put on by Eric Wa
 Not completed
 
 ## Day 2
+**RUN IN ANY PYTHON IDE OR BASH SHELL**
+
 I decided to take a more 'file upload' approach to be able to separate the data from the processing program.
 Initially, I wrote the code to include only one function necessary, but often times you want to separate functions
 according to their respective task.
