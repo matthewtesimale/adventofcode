@@ -20,12 +20,6 @@ strat_guide = [
 ]
 
 def determineVictorScore(val1, val2):
-    """
-    Determines if val1 wins in a game of Rock/Paper/Scissors
-    :param val1:
-    :param val2:
-    :return: 'draw', 'lose', 'win'
-    """
     score = 0
     result = None
     score += labels[val1][1]
@@ -67,12 +61,6 @@ labels = {
 }
 
 def determineVictorScore2(val1, val2):
-    """
-    Determines the score for the round
-    :param val1:
-    :param val2:
-    :return: 'draw', 'lose', 'win'
-    """
     score = 0
     score += scoring[labels[val2]]
     v1 = labels[val1][0]
